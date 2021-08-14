@@ -1,0 +1,43 @@
+.nav-header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  background-color: var(--navbar-bg);
+}
+
+.nav {
+  width: 80%;
+  height: var(--nav-height);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  margin-right: 0.3rem;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  background-color: #fff;
+}
+
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+.nav-title {
+  font-size: 1.5rem;
+}
